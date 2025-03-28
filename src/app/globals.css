@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e6f2ff; /* Fondo azul claro */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor para la lista de Pokémon */
+.pokemon-list {
+  background-color: #e6f9e6; /* Fondo verde muy claro para la lista */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+/* Tarjeta individual de Pokémon */
+.pokemon-card {
+  background-color: #d1c4e9; /* Fondo púrpura claro */
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.pokemon-card:hover {
+  background-color: #b39ddb; /* Fondo púrpura oscuro al pasar el cursor */
+}
+
+.pokemon-card.selected {
+  background-color: #bbdefb; /* Fondo azul para el seleccionado */
+}
+
+/* Contenedor para el panel de detalles del Pokémon */
+.pokemon-details {
+  background-color: #bbdefb; /* Fondo azul claro para los detalles */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.pokemon-details img {
+  background-color: #ffcdd2; /* Fondo rosa claro para las imágenes */
+  padding: 0.5rem;
+  border-radius: 50%;
+}
